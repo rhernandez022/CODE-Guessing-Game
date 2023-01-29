@@ -23,9 +23,9 @@ def test_lower_number():
     assert output == [
         "\nWelcome to the Guessing Game",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({guess}) was a little too high, try lower.",
+        f"Your guess ({guess}) was a little too high. Try lower.",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({guess-1}) was a little too high, try lower.",
+        f"Your guess ({guess-1}) was a little too high. Try lower.",
         "\nEnter your guess from one to ten: ",
         f"Hooray! You guessed the number: {guess-2}"
     ]
@@ -41,9 +41,9 @@ def test_higher_number():
     assert output == [
         "\nWelcome to the Guessing Game",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({guess}) was a little too low, try higher.",
+        f"Your guess ({guess}) was a little too low. Try higher.",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({guess+1}) was a little too low, try higher.",
+        f"Your guess ({guess+1}) was a little too low. Try higher.",
         "\nEnter your guess from one to ten: ",
         f"Hooray! You guessed the number: {guess+2}"
     ]
@@ -57,11 +57,11 @@ def test_attempts():
     assert output == [
         "\nWelcome to the Guessing Game",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({random_number-1}) was a little too low, try higher.",
+        f"Your guess ({random_number-1}) was a little too low. Try higher.",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({random_number+1}) was a little too high, try lower.",
+        f"Your guess ({random_number+1}) was a little too high. Try lower.",
         "\nEnter your guess from one to ten: ",
-        f"Your guess ({random_number+1}) was a little too high, try lower.",
-        f"Your failed to guess the number ({random_number}) in three attempts"
+        f"Your guess ({random_number+1}) was a little too high. Try lower.",
+        f"Your failed to guess the number ({random_number}) in three attempts."
 
     ]    
