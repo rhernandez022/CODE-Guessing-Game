@@ -62,6 +62,5 @@ def test_attempts():
         f"Your guess ({random_number+1}) was a little too high. Try lower.",
         "\nEnter your guess from one to ten: ",
         f"Your guess ({random_number+1}) was a little too high. Try lower.",
-        f"Your failed to guess the number ({random_number}) in three attempts."
-
+        f"You failed to guess the number ({random_number}) in three attempts."
     ]    

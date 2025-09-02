@@ -18,6 +18,6 @@ In the following code assignment, you are going to create an **interactive numbe
   - If the guess was lower than the number: 
     + "Your guess (x) was a little too low. Try higher." (replace x with the guess number)
   - If the user fails to guess in three tries: 
-    + "Your failed to guess the number (x) in three attempts." (replace x with the number to be guessed)
+    + "You failed to guess the number (x) in three attempts." (replace x with the number to be guessed)
     
 **Important:** Do not forget to program your code in code_2.py and start your code at line 10. Be careful not to code inside the if statement defined in line 5
