@@ -3,11 +3,11 @@ import random
 import os,sys
 from mock_input_tests import *
 
-from code_2 import main
+from assignment import main
 
 def check_if_file_exists():
     try:
-        exists = os.path.exists("code_2.py")
+        exists = os.path.exists("assignment.py")
         assert exists == True
     except:
         sys.exit()
