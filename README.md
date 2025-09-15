@@ -20,4 +20,4 @@ In the following code assignment, you are going to create an **interactive numbe
   - If the user fails to guess in three tries: 
     + "You failed to guess the number (x) in three attempts." (replace x with the number to be guessed)
     
-**Important:** Do not forget to program your code in code_2.py and start your code at line 10. Be careful not to code inside the if statement defined in line 5
+**Important:** Do not forget to program your code in assignment.py and start your code at line 10. Be careful not to code inside the if statement defined in line 5
