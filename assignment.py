@@ -9,7 +9,6 @@ def main(random_number=None):
 
     print("\nWelcome to the Guessing Game")
 
-   
     for i in range(3):
        guess_number = int(input("\nEnter your guess from one to ten: "))
     
